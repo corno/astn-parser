@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    //"noLib": true,
+    "target": "ES2018",//"es5"
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

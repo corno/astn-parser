@@ -1,0 +1,39 @@
+{
+  "author": "Corno",
+  "bin": {
+    "astn-normalize": "dist/bin/normalizeFile.js",
+    "astn-to-json": "dist/bin/toJSON.js"
+  },
+  "dependencies": {
+    "pareto-runtime": "^0.17.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "ASTN",
+    "tools",
+    "parser",
+    "generator",
+    "tagged union",
+    "tagged",
+    "union",
+    "sum type",
+    "sum",
+    "type"
+  ],
+  "main": "dist/index.js",
+  "bugs": {
+    "url": "https://github.com/corno/astn-parser/issues"
+  },
+  "description": "tools for handling ASTN files, including a SAX-style parser",
+  "homepage": "https://github.com/corno/astn-parser#readme",
+  "license": "ISC",
+  "name": "astn",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corno/astn-parser.git"
+  },
+  "types": "dist/index.d.ts",
+  "version": "0.98.0"
+}
